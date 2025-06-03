@@ -1,16 +1,16 @@
 type: collection.insomnia.rest/5.0
 name: Parcial2Capas
 meta:
-  id: wrk_285d018cb2874a85bd475b679ea2d39a
-  created: 1748910518103
-  modified: 1748910518103
+  id: wrk_6c8cea5dc161422ba2e93495cac805c0
+  created: 1748923361892
+  modified: 1748923361892
 collection:
   - url: http://localhost:8080/registerBook
     name: Create Book
     meta:
-      id: req_ce4ca416227646e9845e142b12b93b49
+      id: req_12571a31d9704686b06bbc54ffaace17
       created: 1748915188058
-      modified: 1748917394492
+      modified: 1748923981536
       isPrivate: false
       sortKey: -1748915188058
     method: POST
@@ -18,12 +18,12 @@ collection:
       mimeType: application/json
       text: |-
         {
-        	"title": "hola2",
-        	"author": "hola2",
-        	"isbn": "978-0-323-77671-4",
+        	"title": "IT",
+        	"author": "Stephen",
+        	"isbn": "9780323776714",
         	"publicationYear": 1901,
         	"language": "english",
-        	"pages": 11,
+        	"pages": 121,
         	"genre": "horror"
         }
     headers:
@@ -42,7 +42,7 @@ collection:
   - url: http://localhost:8080/book/1233
     name: Find By ISBN
     meta:
-      id: req_83def937675342289c672b55bdbcc960
+      id: req_10f2e79de03e480d944387c4fb813fc2
       created: 1748917283665
       modified: 1748917440168
       isPrivate: false
@@ -62,13 +62,13 @@ collection:
 cookieJar:
   name: Default Jar
   meta:
-    id: jar_5831ab11819117f0d549e4aa02ed08f42003f46e
+    id: jar_054cb7edaf1247509d7fd22c53f7d584
     created: 1748910518118
     modified: 1748910518118
 environments:
   name: Base Environment
   meta:
-    id: env_5831ab11819117f0d549e4aa02ed08f42003f46e
+    id: env_1912845dc6904c0fa60afdb7a36bce71
     created: 1748910518111
     modified: 1748910518111
     isPrivate: false
